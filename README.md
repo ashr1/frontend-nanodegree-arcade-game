@@ -1,6 +1,15 @@
-frontend-nanodegree-arcade-game
-===============================
+# Classic Arcade Game Clone
+___
+The player must cross the road to reach the other side without hitting the
+bugs crawling across the road.
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## Running the game
+Open index.html in your web browser.  For example, in Chrome,
+hit Ctrl+ O and locate index.html of this game in your computer. The game
+should run in your browser, ready to play.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## How to play
+Use your arrow keys (up, down left, right) to navigate the player to the
+water, while avoiding the bugs on the way.
+* If you hit any bugs, player will be reset to the starting position
+* If player successfully reaches water, the game will automatically reset to the starting position...but your character may look differently!
